@@ -1,0 +1,138 @@
+html{
+    overflow-x: hidden;
+}
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+#startnav a{
+    text-decoration: none;
+    color: black;
+}
+#mainnav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    position:sticky;
+    top: 0px;
+}
+#startnav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+#startnav li{
+    padding: 8px;
+
+}
+#endnav a{
+    padding: 25px;
+
+}
+#midnav img{
+    width: 170px;
+}
+
+/* ===================================end navbar=================================== */
+#aboutus{
+    font-size: 50px;
+    font-weight: bold;
+}
+#pain{
+    font-size: 40px;
+    font-weight: bold;
+}
+#pain1{
+    font-size: 30px;
+    font-weight: bold;
+}
+#team{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#team1{
+    font-size: 20px;
+    font-weight: bold;
+}
+#team2{
+    width: 400px;
+    height: 273px;
+    overflow-x: hidden;
+    border: 2px solid white;
+}
+#team img:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+/* =================================end about us ===================================== */
+#contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+#contact div{
+    padding: 10px;
+}
+#contact1{
+    font-size: 30px;
+    font-weight: bold;
+}
+#contact2 input{
+    width: 200px;
+    height: 30px;
+}
+#contact4 input{
+    width: 500px;
+    height: 100px;
+}
+#contact5 input{
+    width: 20px;
+    height: 30px;
+}
+#btn{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow-x: hidden;
+}
+#btn:hover{
+    background-color: brown;
+    transition: 0.5s;
+}
+#add{
+    font-weight: bold;
+    font-size: 20px;
+}
+#icn{
+    font-size: 20px;
+}
+#icn a{
+    padding: 7px;
+}
+
+/* ================================================================================= */
+#footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    border: 2px solid rgb(186, 184, 184);
+}
+#footer div{
+    padding: 10px;
+}
+#footer1{
+    font-size: 40px;
+    font-weight: bold;
+}
+#email input{
+    font-size: 30px;
+}
